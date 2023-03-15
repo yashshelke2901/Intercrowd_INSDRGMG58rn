@@ -1,12 +1,207 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <title>LandingPage</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- link to css file  -->
+
+    <style>
+        main .h1p1{
+    width: 40%;
+    position: absolute;
+    top: 140px;
+    left: 120px;
+ } 
+
+ 
+ 
+ .img{
+    position: absolute;
+    right: 120px;
+    top: 150px;
+} 
+.line hr {
+    border-top: 3px solid #bbb;
+    position: relative;
+    width: 90%;
+    top: 470px;
     
+  }
+  .playcards{
+    position: relative;
+    top: 430px;
+  }
+  footer
+  {
+    position: relative;
+    top: 500px;
+    background-color: #bbb;
+    height: 300px;
+  }
+  
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <div class="container-fluid">
+
+        <!-- Navbar -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Intern Crowd</a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Courses</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-6 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"
+                        style="width: 450px;">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+        <main>
+            <div class="h1p1">
+                <h1>Web development </h1>
+                <br>
+                <p>Web development refers to the creating, building, and maintaining of websites. It includes aspects
+                    such
+                    as web design, web publishing, web programming, and database management. It is the creation of an
+                    application that works over the internet i.e. websites.
+                    <br>
+                    Web development can range from developing a simple single static page of plain text to complex web
+                    applications, electronic businesses, and social network services.
+                </p>
+                <br>
+
+                <button type="button" class="btn btn-primary">Read more</button>
+            </div>
+
+            <img src="image1.jpg" alt="" class="img">
+            <br>
+            <div class="line">
+                <hr class="solid">
+            </div>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <!-- cards -->
+
+            <div class="playcards">
+
+                <center>
+                    <h2>Programming language</h2>
+                </center>
+                <br>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="card" style="width: 350px;">
+                            <div class="card-header text-center bg-dark  text-white">
+                                C
+                            </div>
+                            <div class="card-body">
+                                <img class="card-img-top" src="c.jpg">
+                                <h2 class="card-title ">c</h2>
+                                <h4 class="card-subtitle">Programming </h4>
+                                <br>
+
+                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#dd"
+                                    aria-expanded="false" aria-controls="collapseExample">
+                                    more
+                                </button>
+                                <button class="btn btn-success">Enroll now </button>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card" style="width: 350px;">
+                            <div class="card-header text-center bg-dark text-white">
+                                C++
+                            </div>
+                            <div class="card-body">
+                                <img class="card-img-top" src="c++.jpg" alt="">
+                                <h2 class="card-title ">c++</h2>
+                                <h4 class="card-subtitle">Programming </h4>
+                                <br>
+                                <button class="btn btn-primary card-link"> more</button>
+                                <button class="btn btn-success">Enroll now </button>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card" style="width: 350px;">
+                            <div class="card-header text-center bg-dark text-white">
+                                Java
+                            </div>
+                            <div class="card-body">
+                                <img class="card-img-top" src="java.jpg" alt="">
+                                <h2 class="card-title ">java</h2>
+                                <h4 class="card-subtitle">Programming </h4>
+                                <br>
+
+                                <button class="btn btn-primary card-link"> more</button>
+                                <button class="btn btn-success">Enroll now </button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                   
+
+                    
+                </div>
+            </div>
+           
+
+        </main>
+
+        <footer>
+            <br><br><br><br>
+           <center> <h4>interncrowd.in </h4>
+           </center>
+        </footer>
+
+    </div>
 </body>
+
 </html>
